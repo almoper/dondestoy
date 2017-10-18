@@ -1,0 +1,12 @@
+
+function redondear(numero, decimales)
+{
+	// Redondea el número pasado como parámetro al número de decimales definido.
+
+	var redondeado;
+	
+	redondeado = Math.round(numero * 10^decimales) /10^decimales;
+
+ 	return redondeado;
+}
+

@@ -1,0 +1,26 @@
+<html>
+<style type='text/css'>
+#ifls {
+  width: 1024px;
+  height: 500px;
+}
+</style>
+<body>
+  <form action='ls.php' target='ifls'>
+    <table border=0>
+      <tr>
+        <td>
+          <span>ruta directorio</span>
+          <input type='text' name='dirname' value='http://'/>
+          <input type='submit' value='listar'/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <iframe id='ifls' name='ifls'></iframe>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
